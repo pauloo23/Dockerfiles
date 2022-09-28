@@ -30,6 +30,14 @@
 		<value>hadoop-master:50070</value>
 	</property>
 	<property>
+		<name>dfs.datanode.http.address</name>
+		<value>hadoop-node1:50090</value>
+	</property>
+		<property>
+		<name>dfs.datanode.http.address</name>
+		<value>hadoop-node2:50090</value>
+	</property>
+	<property>
 		<name>dfs.datanode.max.transfer.threads</name>
 		<value>8192</value>
 	</property>
