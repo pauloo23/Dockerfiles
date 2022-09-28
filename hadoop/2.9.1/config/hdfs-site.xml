@@ -23,7 +23,7 @@
 	</property>
 	<property>
 		<name>dfs.namenode.secondary.http-address</name>
-		<value>hadoop-node1:50090</value>
+		<value>hadoop-node1:50075</value>
 	</property>
 	<property>
 		<name>dfs.namenode.http-address</name>
