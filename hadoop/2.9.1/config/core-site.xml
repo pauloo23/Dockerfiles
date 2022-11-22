@@ -41,4 +41,8 @@
 		<name>hadoop.proxyuser.hive.groups</name>
 		<value>*</value>
 	</property>
+	<property>
+		<name>hadoop.proxyuser.hue_hive.groups</name>
+		<value>*</value>
+	</property>
 </configuration>
