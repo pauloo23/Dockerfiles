@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <!--
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,24 +13,22 @@
   See the License for the specific language governing permissions and
   limitations under the License. See accompanying LICENSE file.
 -->
-
 <!-- Put site-specific property overrides in this file. -->
-
 <configuration>
-	<property>
-		<name>mapreduce.framework.name</name>
-		<value>yarn</value>
-	</property>
-	<property>
-		<name>mapreduce.jobhistory.address</name>
-		<value>hadoop-namenode:10020</value>
-	</property>
-	<property>
-		<name>mapreduce.jobhistory.webapp.address</name>
-		<value>hadoop-namenode:19888</value>
-	</property>
-	<property>
-    		<name>mapred.child.java.opts</name>
-    		<value>-Xmx4096m</value>
-	</property>
+   <property>
+      <name>mapreduce.framework.name</name>
+      <value>yarn</value>
+   </property>
+   <property>
+      <name>mapreduce.jobhistory.address</name>
+      <value>hadoop-namenode:10020</value>
+   </property>
+   <property>
+      <name>mapreduce.jobhistory.webapp.address</name>
+      <value>hadoop-namenode:19888</value>
+   </property>
+   <property>
+      <name>mapred.child.java.opts</name>
+      <value>-Xmx4096m</value>
+   </property>
 </configuration>
