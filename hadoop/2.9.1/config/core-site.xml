@@ -53,4 +53,12 @@
 		<name>hadoop.proxyuser.root.hosts</name>
 		<value>*</value>
 	</property>
+	<property>
+		<name>hadoop.proxyuser.hbase.hosts</name>
+		<value>*</value>
+	</property>
+	<property>
+		<name>hadoop.proxyuser.hbase.users</name>
+		<value>*</value>
+	</property>
 </configuration>
